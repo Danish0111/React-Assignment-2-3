@@ -1,16 +1,21 @@
-# React + Vite
+# Md Danish
+[danish150106@gmail.com]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## React Assignment Day 2 Quiz
+1. What happens when you directly modify a prop inside a component?
+Ans - Nothing happens, props are read-only
 
-Currently, two official plugins are available:
+2. Which hook is used to manage state in functional components?
+Ans - useState
+ 
+3. What is the correct way to update state based on the previous state value?
+Ans - setState(prevState => prevState + 1)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+4. In React, data flows:
+Ans - From parent to child only
 
-## React Compiler
+5. When should you lift state up?
+Ans - When multiple components need to share the same state
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+6. What does React use for efficient DOM updates?
+Ans - Virtual DOM
